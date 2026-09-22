@@ -1,0 +1,81 @@
+body html{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header nav {
+    background-color: red;
+    color: white;
+
+}
+
+header nav img {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+
+}
+
+main section img {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.lista{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+
+
+}
+
+main section div{
+    margin: 50px;
+
+}
+
+.seccionfinal div h3{
+
+    align-items: center;
+    flex-wrap: wrap;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.seccionfinal div ul{
+    list-style-type: none;
+    width: 250px;
+    text-align: center;
+}
+
+.textgold{
+    color: gold;
+}
+
+.precio{
+    color: red;
+}
+
+.subtitulo{
+    color: gray;
+}
+
+.btn-comprar{
+    background-color: yellow;
+}
